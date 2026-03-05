@@ -6,7 +6,9 @@ from .encoder_decoderCD import EncoderDecoderCD
 from .seg_tta import SegTTAModel
 
 from .ChangeCLIPCD import ChangeCLIP
+from .ChangeCLIPQA import ChangeCLIPQA
 
 __all__ = [
-    'BaseSegmentor', 'EncoderDecoder', 'CascadeEncoderDecoder', 'SegTTAModel', 'EncoderDecoderCD', 'ChangeCLIP'
+    'BaseSegmentor', 'EncoderDecoder', 'CascadeEncoderDecoder', 'SegTTAModel',
+    'EncoderDecoderCD', 'ChangeCLIP', 'ChangeCLIPQA'
 ]

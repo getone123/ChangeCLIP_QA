@@ -13,6 +13,7 @@ from .dsdl import DSDLSegDataset
 from .hrf import HRFDataset
 from .isaid import iSAIDDataset
 from .isprs import ISPRSDataset
+from .cdqag_dataset import CDQAGDataset
 from .levir import LEVIRCDDataset
 from .lip import LIPDataset
 from .loveda import LoveDADataset
@@ -56,7 +57,7 @@ __all__ = [
     'BioMedicalGaussianNoise', 'BioMedicalGaussianBlur',
     'BioMedicalRandomGamma', 'BioMedical3DPad', 'RandomRotFlip',
     'SynapseDataset', 'REFUGEDataset', 'MapillaryDataset_v1',
-    'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset',
+    'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset', 'CDQAGDataset',
     'LoadMultipleRSImageFromFile', 'LoadSingleRSImageFromFile',
     'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'TXTSegDataset',
     'TXTCDDataset'
